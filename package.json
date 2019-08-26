@@ -1,0 +1,26 @@
+{
+  "name": "noflo_boilerplate_runtime",
+  "version": "1.0.0",
+  "description": "A boilerplate runtime for noflo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walid-Shouman/noflo_boilerplate_runtime.git"
+  },
+  "keywords": [
+    "noflo",
+    "boilerplate",
+    "runtime",
+    "docker"
+  ],
+  "author": "Walid Shouman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Walid-Shouman/noflo_boilerplate_runtime/issues"
+  },
+  "homepage": "https://github.com/Walid-Shouman/noflo_boilerplate_runtime#readme",
+  "dependencies": {}
+}
