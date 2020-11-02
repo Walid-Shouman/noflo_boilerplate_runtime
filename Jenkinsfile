@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    label 'docker-compose'
+  }
 
   stages {
     stage('Verify Branch') {
