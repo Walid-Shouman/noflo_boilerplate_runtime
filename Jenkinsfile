@@ -18,11 +18,11 @@ pipeline {
         """)
       }
     }
-    stage('Run Tests') {
-      steps {
-        sh(script: 'sudo ./tests/service_up.sh')
-      }
-    }
+    // stage('Run Tests') {
+    //   steps {
+    //     sh(script: 'sudo ./tests/service_up.sh')
+    //   }
+    // }
     stage('Docker Compose Down') {
       steps {
         sh(script: """
