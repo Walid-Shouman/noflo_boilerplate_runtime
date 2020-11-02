@@ -1,6 +1,5 @@
-services:
-  flo-backend:
-    build: .
-    ports:
-      - "3569:3569"
+flo-backend:
+  build: .
+  ports:
+    - "3569:3569"
 
