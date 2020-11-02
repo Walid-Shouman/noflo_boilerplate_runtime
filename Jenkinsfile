@@ -13,7 +13,7 @@ pipeline {
       steps {
         sh(script: """
           docker images -a
-          docker-compose up
+          docker-compose up -d
           docker images -a
         """)
       }
